@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25F000A20F58A5D00C49640 /* MiraCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F000920F58A5D00C49640 /* MiraCodeChallengeTests.swift */; };
+		F25FFFF520F58A5B00C49640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25FFFF420F58A5B00C49640 /* AppDelegate.swift */; };
+		F25FFFF720F58A5B00C49640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25FFFF620F58A5B00C49640 /* ViewController.swift */; };
+		F25FFFFA20F58A5B00C49640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25FFFF820F58A5B00C49640 /* Main.storyboard */; };
+		F25FFFFC20F58A5D00C49640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25FFFFB20F58A5D00C49640 /* Assets.xcassets */; };
+		F25FFFFF20F58A5D00C49640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25FFFFD20F58A5D00C49640 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25F000620F58A5D00C49640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25FFFE920F58A5B00C49640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25FFFF020F58A5B00C49640;
+			remoteInfo = MiraCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25F000020F58A5D00C49640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25F000520F58A5D00C49640 /* MiraCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25F000920F58A5D00C49640 /* MiraCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraCodeChallengeTests.swift; sourceTree = "<group>"; };
+		F25F000B20F58A5D00C49640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25FFFF120F58A5B00C49640 /* MiraCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiraCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25FFFF420F58A5B00C49640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F25FFFF620F58A5B00C49640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F25FFFF920F58A5B00C49640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25FFFFB20F58A5D00C49640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25FFFFE20F58A5D00C49640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25F000220F58A5D00C49640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25FFFEE20F58A5B00C49640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25F000820F58A5D00C49640 /* MiraCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F25F000920F58A5D00C49640 /* MiraCodeChallengeTests.swift */,
+				F25F000B20F58A5D00C49640 /* Info.plist */,
+			);
+			path = MiraCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		F25FFFE820F58A5B00C49640 = {
+			isa = PBXGroup;
+			children = (
+				F25FFFF320F58A5B00C49640 /* MiraCodeChallenge */,
+				F25F000820F58A5D00C49640 /* MiraCodeChallengeTests */,
+				F25FFFF220F58A5B00C49640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25FFFF220F58A5B00C49640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25FFFF120F58A5B00C49640 /* MiraCodeChallenge.app */,
+				F25F000520F58A5D00C49640 /* MiraCodeChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25FFFF320F58A5B00C49640 /* MiraCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				F25FFFF420F58A5B00C49640 /* AppDelegate.swift */,
+				F25FFFF620F58A5B00C49640 /* ViewController.swift */,
+				F25FFFF820F58A5B00C49640 /* Main.storyboard */,
+				F25FFFFB20F58A5D00C49640 /* Assets.xcassets */,
+				F25FFFFD20F58A5D00C49640 /* LaunchScreen.storyboard */,
+				F25F000020F58A5D00C49640 /* Info.plist */,
+			);
+			path = MiraCodeChallenge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25F000420F58A5D00C49640 /* MiraCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25F001120F58A5D00C49640 /* Build configuration list for PBXNativeTarget "MiraCodeChallengeTests" */;
+			buildPhases = (
+				F25F000120F58A5D00C49640 /* Sources */,
+				F25F000220F58A5D00C49640 /* Frameworks */,
+				F25F000320F58A5D00C49640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25F000720F58A5D00C49640 /* PBXTargetDependency */,
+			);
+			name = MiraCodeChallengeTests;
+			productName = MiraCodeChallengeTests;
+			productReference = F25F000520F58A5D00C49640 /* MiraCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F25FFFF020F58A5B00C49640 /* MiraCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25F000E20F58A5D00C49640 /* Build configuration list for PBXNativeTarget "MiraCodeChallenge" */;
+			buildPhases = (
+				F25FFFED20F58A5B00C49640 /* Sources */,
+				F25FFFEE20F58A5B00C49640 /* Frameworks */,
+				F25FFFEF20F58A5B00C49640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiraCodeChallenge;
+			productName = MiraCodeChallenge;
+			productReference = F25FFFF120F58A5B00C49640 /* MiraCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25FFFE920F58A5B00C49640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Afrodev Inc";
+				TargetAttributes = {
+					F25F000420F58A5D00C49640 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F25FFFF020F58A5B00C49640;
+					};
+					F25FFFF020F58A5B00C49640 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F25FFFEC20F58A5B00C49640 /* Build configuration list for PBXProject "MiraCodeChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25FFFE820F58A5B00C49640;
+			productRefGroup = F25FFFF220F58A5B00C49640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25FFFF020F58A5B00C49640 /* MiraCodeChallenge */,
+				F25F000420F58A5D00C49640 /* MiraCodeChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25F000320F58A5D00C49640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25FFFEF20F58A5B00C49640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25FFFFF20F58A5D00C49640 /* LaunchScreen.storyboard in Resources */,
+				F25FFFFC20F58A5D00C49640 /* Assets.xcassets in Resources */,
+				F25FFFFA20F58A5B00C49640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25F000120F58A5D00C49640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25F000A20F58A5D00C49640 /* MiraCodeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25FFFED20F58A5B00C49640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25FFFF720F58A5B00C49640 /* ViewController.swift in Sources */,
+				F25FFFF520F58A5B00C49640 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25F000720F58A5D00C49640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25FFFF020F58A5B00C49640 /* MiraCodeChallenge */;
+			targetProxy = F25F000620F58A5D00C49640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25FFFF820F58A5B00C49640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25FFFF920F58A5B00C49640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F25FFFFD20F58A5D00C49640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25FFFFE20F58A5D00C49640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25F000C20F58A5D00C49640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F25F000D20F58A5D00C49640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25F000F20F58A5D00C49640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiraCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.afrodev.miracodechallenge.MiraCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25F001020F58A5D00C49640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiraCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.afrodev.miracodechallenge.MiraCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F25F001220F58A5D00C49640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiraCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.afrodev.miracodechallenge.MiraCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiraCodeChallenge.app/MiraCodeChallenge";
+			};
+			name = Debug;
+		};
+		F25F001320F58A5D00C49640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiraCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.afrodev.miracodechallenge.MiraCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiraCodeChallenge.app/MiraCodeChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25F000E20F58A5D00C49640 /* Build configuration list for PBXNativeTarget "MiraCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25F000F20F58A5D00C49640 /* Debug */,
+				F25F001020F58A5D00C49640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25F001120F58A5D00C49640 /* Build configuration list for PBXNativeTarget "MiraCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25F001220F58A5D00C49640 /* Debug */,
+				F25F001320F58A5D00C49640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25FFFEC20F58A5B00C49640 /* Build configuration list for PBXProject "MiraCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25F000C20F58A5D00C49640 /* Debug */,
+				F25F000D20F58A5D00C49640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25FFFE920F58A5B00C49640 /* Project object */;
+}
